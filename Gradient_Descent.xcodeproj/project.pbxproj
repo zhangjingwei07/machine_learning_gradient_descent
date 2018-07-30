@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A29A06D5210EE33E0089FF07 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A29A06D4210EE33E0089FF07 /* main.cpp */; };
+		A29A06EB210EE3630089FF07 /* featureNormalize.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A06DB210EE3610089FF07 /* featureNormalize.m */; };
+		A29A06EC210EE3630089FF07 /* computeCost.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A06DC210EE3610089FF07 /* computeCost.m */; };
+		A29A06ED210EE3630089FF07 /* submit.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A06DD210EE3620089FF07 /* submit.m */; };
+		A29A06EE210EE3630089FF07 /* ex1.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A06DF210EE3620089FF07 /* ex1.m */; };
+		A29A06EF210EE3630089FF07 /* gradientDescent.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A06E1210EE3620089FF07 /* gradientDescent.m */; };
+		A29A06F0210EE3630089FF07 /* plotData.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A06E2210EE3620089FF07 /* plotData.m */; };
+		A29A06F1210EE3630089FF07 /* warmUpExercise.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A06E4210EE3620089FF07 /* warmUpExercise.m */; };
+		A29A06F2210EE3630089FF07 /* ex1_multi.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A06E5210EE3620089FF07 /* ex1_multi.m */; };
+		A29A06F3210EE3630089FF07 /* computeCostMulti.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A06E6210EE3620089FF07 /* computeCostMulti.m */; };
+		A29A06F4210EE3630089FF07 /* normalEqn.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A06E9210EE3630089FF07 /* normalEqn.m */; };
+		A29A06F5210EE3630089FF07 /* gradientDescentMulti.m in Sources */ = {isa = PBXBuildFile; fileRef = A29A06EA210EE3630089FF07 /* gradientDescentMulti.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +34,22 @@
 
 /* Begin PBXFileReference section */
 		A29A06D1210EE33E0089FF07 /* Gradient_Descent */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Gradient_Descent; sourceTree = BUILT_PRODUCTS_DIR; };
-		A29A06D4210EE33E0089FF07 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A29A06DB210EE3610089FF07 /* featureNormalize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = featureNormalize.m; sourceTree = "<group>"; };
+		A29A06DC210EE3610089FF07 /* computeCost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = computeCost.m; sourceTree = "<group>"; };
+		A29A06DD210EE3620089FF07 /* submit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = submit.m; sourceTree = "<group>"; };
+		A29A06DE210EE3620089FF07 /* octave-workspace */ = {isa = PBXFileReference; lastKnownFileType = file; path = "octave-workspace"; sourceTree = "<group>"; };
+		A29A06DF210EE3620089FF07 /* ex1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ex1.m; sourceTree = "<group>"; };
+		A29A06E0210EE3620089FF07 /* ex1data1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ex1data1.txt; sourceTree = "<group>"; };
+		A29A06E1210EE3620089FF07 /* gradientDescent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gradientDescent.m; sourceTree = "<group>"; };
+		A29A06E2210EE3620089FF07 /* plotData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = plotData.m; sourceTree = "<group>"; };
+		A29A06E3210EE3620089FF07 /* token.mat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = token.mat; sourceTree = "<group>"; };
+		A29A06E4210EE3620089FF07 /* warmUpExercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = warmUpExercise.m; sourceTree = "<group>"; };
+		A29A06E5210EE3620089FF07 /* ex1_multi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ex1_multi.m; sourceTree = "<group>"; };
+		A29A06E6210EE3620089FF07 /* computeCostMulti.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = computeCostMulti.m; sourceTree = "<group>"; };
+		A29A06E7210EE3620089FF07 /* ex1data2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ex1data2.txt; sourceTree = "<group>"; };
+		A29A06E8210EE3630089FF07 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		A29A06E9210EE3630089FF07 /* normalEqn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = normalEqn.m; sourceTree = "<group>"; };
+		A29A06EA210EE3630089FF07 /* gradientDescentMulti.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gradientDescentMulti.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +82,22 @@
 		A29A06D3210EE33E0089FF07 /* Gradient_Descent */ = {
 			isa = PBXGroup;
 			children = (
-				A29A06D4210EE33E0089FF07 /* main.cpp */,
+				A29A06DC210EE3610089FF07 /* computeCost.m */,
+				A29A06E6210EE3620089FF07 /* computeCostMulti.m */,
+				A29A06E5210EE3620089FF07 /* ex1_multi.m */,
+				A29A06DF210EE3620089FF07 /* ex1.m */,
+				A29A06E0210EE3620089FF07 /* ex1data1.txt */,
+				A29A06E7210EE3620089FF07 /* ex1data2.txt */,
+				A29A06DB210EE3610089FF07 /* featureNormalize.m */,
+				A29A06E1210EE3620089FF07 /* gradientDescent.m */,
+				A29A06EA210EE3630089FF07 /* gradientDescentMulti.m */,
+				A29A06E8210EE3630089FF07 /* lib */,
+				A29A06E9210EE3630089FF07 /* normalEqn.m */,
+				A29A06DE210EE3620089FF07 /* octave-workspace */,
+				A29A06E2210EE3620089FF07 /* plotData.m */,
+				A29A06DD210EE3620089FF07 /* submit.m */,
+				A29A06E3210EE3620089FF07 /* token.mat */,
+				A29A06E4210EE3620089FF07 /* warmUpExercise.m */,
 			);
 			path = Gradient_Descent;
 			sourceTree = "<group>";
@@ -118,7 +158,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A29A06D5210EE33E0089FF07 /* main.cpp in Sources */,
+				A29A06F5210EE3630089FF07 /* gradientDescentMulti.m in Sources */,
+				A29A06F3210EE3630089FF07 /* computeCostMulti.m in Sources */,
+				A29A06F4210EE3630089FF07 /* normalEqn.m in Sources */,
+				A29A06EF210EE3630089FF07 /* gradientDescent.m in Sources */,
+				A29A06EC210EE3630089FF07 /* computeCost.m in Sources */,
+				A29A06EB210EE3630089FF07 /* featureNormalize.m in Sources */,
+				A29A06F0210EE3630089FF07 /* plotData.m in Sources */,
+				A29A06ED210EE3630089FF07 /* submit.m in Sources */,
+				A29A06F2210EE3630089FF07 /* ex1_multi.m in Sources */,
+				A29A06EE210EE3630089FF07 /* ex1.m in Sources */,
+				A29A06F1210EE3630089FF07 /* warmUpExercise.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
